@@ -1,0 +1,290 @@
+.dashboardContainer{
+    margin:0;
+    padding:0;
+    width:100%;
+   
+    box-sizing:border-box;
+    background-color: rgb(241, 241, 241);
+   
+  
+}
+.DashboardHeader{
+    height:60px;
+    background-color:white;
+    margin-top:0;
+    padding-right:7%;
+    box-shadow:0 1px 14px rgb(223, 223, 223);
+   
+
+}
+.dashboardcard{
+    width:22%;
+    border-radius:8px;
+    margin-left:3%;
+     margin-top:10px;
+
+     padding-top:2%; 
+    box-shadow:0 1px 20px rgb(232, 229, 229);
+    background-color:white;
+ 
+
+}
+.DashboardHeader{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.top_dashboard{
+    width:180px;
+    height:30px;
+    background-color: rgb(240, 245, 245);
+    margin-left:5%;
+   
+    display:flex;
+    border-radius:3px;
+    padding-bottom:7px;
+    padding-left:2%;
+       align-items: center;
+
+
+
+}
+
+.DashboardCardHeader{
+display:flex;align-items:center;padding-left:7%;
+}
+.accountDiv{
+    display:flex; align-items:center;
+    margin-bottom:0;
+    margin-top:0;
+    padding-left:10%;
+}
+.AccountInnerText{
+    padding-left:17%;
+}
+.cardParagraph{
+    font-size:small;
+    margin-top:0;
+    margin-bottom:0;
+    line-height: 24px;
+}
+.marginTopMarginBottom10{
+    margin-top:0;margin-bottom:10px;
+}
+.marginTopmarginBottom0{
+    margin-top:10px;margin-bottom:0;
+}
+#marginTopmarginBottom0ID{
+  margin-top:0;
+  margin-top:0;
+}
+.DashboardleftSideBox{
+    width:70%;
+    
+     margin-left:3%;
+}
+.dashboardChip{
+    width:155px;
+    height:70px;
+    border-radius: 10px;;
+     box-shadow: 0 1px 10px rgb(161, 161, 161);;
+     background-color:rgb(253, 251, 251);
+}
+.dashboardChipheader{
+    background-color: rgb(251, 208, 100);
+    color:white;
+     text-align:center;
+
+    margin-top:0;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   padding-top:6px;
+   padding-bottom:6px;
+    margin-bottom:0;
+}
+.digit{
+    text-align:center;
+    margin-top:5px;
+}
+.chipboardMainContainer{
+    display:flex; justify-content:space-around;
+}
+.dashboardChip:hover{
+    transition:.5s ease-in-out;
+    scale:1.1;
+}
+.ProductInfoContainer{
+   
+    width:100%;
+    margin-top:2%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow:0 1px 50px rgb(228, 226, 226);
+    background-color:rgb(253, 251, 251);
+    
+    padding-bottom:10px;
+}
+.productinfoText{
+ margin-top:0;
+ background-color: rgb(251, 208, 100);
+ color:white;
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+ padding-top:6px;
+ padding-left:3%;
+ padding-bottom:6px;
+
+}
+.ProductInfoContainerText{
+     text-align: center;
+     
+     
+}
+.xPara{
+    line-height: 5px;;
+    font-size:small;
+}
+.profileCardDiv{
+     width:34%;
+   
+     background-color:white;
+     margin-top:3%;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     /* margin-bottom:20px; */
+margin-bottom:6px;
+     box-shadow:0 1px 20px rgb(236, 234, 234);
+}
+.profileCardDiv_Header{
+    background-color:rgb(251, 208, 100);
+    margin-top:0;
+    padding-top:6px;
+    padding-bottom:6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom:0;
+
+}
+.AccountCircleDiv{
+display:flex; justify-content:center;
+color:grey;
+ 
+}
+.AccountCircleIcons{
+    width:100px; height:100px;
+  
+}
+.Edit_Profile{
+    width:100px;
+    height:40px;
+    border-radius:7px;
+    background-color:rgb(251, 208, 100);
+    border:none;
+    box-shadow: 0 2px 4px grey;
+    color:white;
+    font-size:500;
+}
+.displayFlexJustifyContentCenter{
+    display:flex; justify-content:center;
+}
+.textAlignCenter{
+    text-align:center;
+    margin-bottom:0;
+
+}
+.display_FlexJustifyContent_SpaceAround{
+    display:flex;justify-content:space-around;
+}
+.marginTop0{
+    margin-top:0;
+    font-size: small;
+}
+.referral_Program{
+    background-color:rgb(251, 208, 100);
+    color:white;
+    border-radius:6px;
+    width:150px;
+    height:40px;
+    border:none;
+    margin-bottom:20px;
+    box-shadow:0 2px 5px grey;
+}
+.recent_Purchases{
+    width:60%;
+   
+    margin-left:6%;
+    margin-top:3.5%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color:white;
+    height:120px;
+    background-color:white;
+    text-align:center;
+    box-shadow: 0 2px 15px rgb(231, 229, 229);;
+}
+.noRecentPurchase{
+    color:black; font-size:small; text-align:start; margin-left:15px; 
+}
+#icon1{
+    margin-right:10px;
+}
+#icon2{
+    margin-right:10px;
+}
+#icon3{
+    margin-right:10px; 
+}
+.marginTopmarginBottom0{
+    margin-bottom:10px;
+}
+.cardParagraph{
+    color:rgb(98, 96, 96);
+    margin-left:16px;
+}
+.marginTopmarginBottom0{
+    color:rgb(98, 96, 96);
+}
+.ProductInfoContainerDiv{
+    text-align:left; margin-left:30%;
+}
+
+
+@media(max-width:1024px){
+    .chipboardMainContainer{
+         margin-left:0;
+
+    }
+    .DashboardleftSideBox{
+      
+        margin-left:10px;
+        width:73%;
+    }
+    .dashboardChip{
+        width:17%;
+        border:1px solid rgb(163, 165, 163);
+    }
+    .activityOverview{
+        margin-left:2%;
+    }
+}
+@media(max-width:720px){
+  .ProductInfoContainerDiv{
+    margin-left:15%;
+}
+.profileCardDiv{
+   
+    width:45%;
+}
+.recent_Purchases{
+    
+     margin-left:10px;;
+}
+.dashboardcard{
+     width:175px;
+}
+}
+
+@media(max-width:670px){
+      
+}

@@ -1,0 +1,197 @@
+.industry-container {
+  width: 97vw;
+  height: 60vh;
+  /* border: 2px solid blue; */
+  margin: auto;
+  display: flex;
+  margin-top: 30px;
+}
+.industry-container-div1 {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid green; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.industry-container-div1-head {
+  font-size: 38px;
+  font-family: sans-serif;
+  display: flex;
+  /* border: 1px solid green; */
+  margin: 10px 0px 0px 0px;
+}
+.industry-container-div1-head-s1 {
+  background: -webkit-linear-gradient(cyan, rgb(147, 147, 184));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 10px;
+}
+
+.industry-container-div1-text {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid green; */
+
+}
+
+.industry-container-div1-text-p {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 33px;
+  /* border: 1px solid red; */
+  margin: 0px;
+}
+
+.industry-container-div2 {
+  width: 90%;
+  height: 250px;
+  /* border: 1px solid red; */
+  margin: 20px 0px 0px 0px;
+  display: flex;
+  margin:auto;
+}
+
+/* {swiper card box......................................................} */
+
+.industry-container-div2-swiper-card{
+    width: 200px;
+    height: 248px;
+    /* border: 1px solid blue; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    transition: transform .2s; 
+
+}
+
+.industry-container-div2-swiper-card-imgdiv{
+    width: 100%;
+    height: 85%;
+}
+
+.industry-container-div2-swiper-card-img{
+    width:100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+div.industry-container-div2-swiper-card:hover{
+  
+    transform: scale(1.25)
+}
+
+.industry-container-div2-swiper-card-name{
+    position: relative;
+    font-size: 18px;
+    font-weight: 550;
+    font-family: sans-serif;
+    top: -21px;
+    color: #17a2b8;
+    /* border: 1px solid red; */
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcyan;
+    /* border: 1px solid red; */
+}
+
+@media screen and (max-width:1440px){
+
+}
+
+@media screen and (max-width:1024px){
+  
+  .industry-container-div2 {
+    width: 99%;
+    height: 250px;
+    /* border: 1px solid red; */
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    margin: auto;
+}
+
+  .industry-container-div2-swiper-card {
+    width: 154px;
+    height: 248px;
+    /* border: 1px solid blue; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    transition: transform .2s;
+}
+
+.industry-container-div2-swiper-card-name {
+  position: relative;
+  font-size: 16px;
+}
+
+}
+
+@media screen and (max-width:768px){
+  
+}
+
+@media screen and (max-width:426px){
+  
+  .industry-container {
+    width: 97vw;
+    height: 75vh;
+    /* border: 2px solid blue; */
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+}
+.industry-container-div1-head {
+  font-size: 35px;
+  font-family: sans-serif;
+  display: flex;
+  /* border: 1px solid green; */
+  margin: 10px 0px 0px 0px;
+}
+.industry-container-div1-text-p {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 33px;
+  /* border: 1px solid red; */
+  margin: 0px;
+  line-height: 20px;
+}
+.industry-container-div2 {
+  width: 90%;
+  height: 370px;
+  /* border: 1px solid red; */
+  margin: 20px 0px 0px 0px;
+  display: flex;
+  margin: auto;
+}
+.industry-container-div2-swiper-card {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid blue; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+  transition: transform .2s;
+}
+.industry-container-div2-swiper-card-name {
+position: relative;
+    font-size: 18px;
+    font-weight: 550;
+    font-family: sans-serif;
+    top: -21px;
+    color: #17a2b8;
+    /* border: 1px solid red; */
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcyan;
+    /* border: 1px solid red; */
+}
+
+}

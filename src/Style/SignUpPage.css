@@ -1,0 +1,373 @@
+*{
+  font-family: sans-serif;
+}
+.signupContainer {
+ 
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  padding-top: 20px;
+  box-sizing: border-box;
+  background-color: #ececf9;
+  border-radius: 10px;
+  padding-bottom: 30px;
+  /* width: 100%; */
+}
+.textdecoration {
+  text-decoration: none;
+}
+.signUpInnerBox {
+  border-radius: 10px;
+
+  width: 40%;
+  padding-top: 15px;
+  /* border:1px solid red; */
+  box-shadow: 0 2px 5px grey;
+  background-color: rgba(248, 247, 247, 0.935);
+
+  margin-left: 3%;
+}
+
+.signupheader {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.corporateuser {
+  font-size: medium;
+  color: rgb(155, 10, 146);
+  text-align: center;
+  margin-top: 0;
+}
+.inputBox_ {
+  width: 80%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.google_ {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.facebook_ {
+  color: rgb(89, 89, 248);
+  margin-right: 10px;
+}
+.github_ {
+  margin-right: 10px;
+}
+.star {
+  color: red;
+  font-weight: 800;
+  font-size: large;
+}
+.selectMonth {
+  width: 120px;
+  height: 35px;
+  padding-right: 5px;
+  border: none;
+  margin-left: 12%;
+  border-radius: 7px;
+  margin-right: 5%;
+}
+.deteBox {
+  display: flex;
+  justify-content: flex-start;
+}
+.selectDate {
+  width: 120px;
+  height: 35px;
+  border: none;
+  /* margin-left:20%; */
+  border-radius: 7px;
+  padding-left: 10px;
+  margin-right: 3%;
+  padding-right: 5px;
+}
+.selectyear {
+  margin-right: 2%;
+  padding-right: 5px;
+  width: 120px;
+  height: 35px;
+
+  border: none;
+  /* margin-left:20%; */
+  margin-right: 0;
+  border-radius: 7px;
+}
+.userName,
+.emailAddress,
+.password_,
+.websiteUrl {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid grey;
+  padding-left: 15px;
+  outline: none;
+  width: 76%;
+  height: 30px;
+}
+.suscribe {
+  font-size: small;
+}
+
+.checkBoxAndSuscribeBox {
+  width: 80%;
+  padding-left: 11%;
+  padding-right: 3%;
+}
+.createAccount {
+  color: white;
+  background-color: rgb(65, 65, 247);
+  width: 120px;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 0;
+}
+.createAccountBtnBox {
+  display: flex;
+  justify-content: center;
+}
+.signupFooter {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding: 9%;
+  margin-top: 0;
+}
+.sign_in {
+  color: blue;
+  margin-left: 10px;
+}
+.alreadyAccountLogin {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.signupBox {
+  display: flex;
+}
+.signupFooter {
+  margin-top: 0;
+  padding-top: 0;
+}
+.signuptextContent {
+  width: 60%;
+  /* border:2px solid grey; */
+  margin-left: 3%;
+  padding-right: 20px;
+
+  padding-top: 3%;
+  border-radius: 10px;
+}
+.selectCountryBox {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  margin-right: 60px;
+
+  height: 30px;
+}
+.slectCountry {
+  display: flex;
+  justify-content: flex-end;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.gtmHeaderINSignUp {
+  text-align: center;
+  font-family: serif;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.imgBoxInSignUp {
+  display: flex;
+  justify-content: center;
+}
+.image1 {
+  width: 30%;
+  height: 30%;
+}
+.hr {
+  color: aquamarine;
+}
+.footerNav {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: center;
+}
+.nav_Link {
+  margin-top: 0;
+  font-size: small;
+  margin-left: 10px;
+  color: grey;
+}
+.allRightReserve {
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+}
+.allrightResevetext {
+  margin-top: 0;
+  font-size: small;
+  text-align: center;
+  color: grey;
+}
+
+.linkInsignIn {
+  text-decoration: none;
+  color: #17a2b8;
+}
+.boldColor {
+  color: rgb(100, 100, 100);
+}
+
+.desc_ruption {
+  padding-right: 10px;
+}
+.loginWithGoogle_ {
+  box-shadow: 0 1px 2px rgb(147, 145, 145);
+}
+.loginWithFacebook_ {
+  box-shadow: 0 1px 2px rgb(114, 113, 113);
+}
+.loginWithGithub_ {
+  box-shadow: 0 1px 2px rgb(114, 113, 113);
+}
+.inputBox_ {
+  border-bottom: 2px solid rgb(197, 197, 197);
+}
+.createAccount {
+  box-shadow: 0 1px 2px rgb(114, 113, 113);
+  background-color: #17a2b8;
+}
+.createAccount:hover {
+  background-color: #026e7f;
+}
+.listSignUp {
+  font-size: 15px;
+}
+.selectyear {
+  border: 1px solid rgb(208, 206, 206);
+  width: 21%;
+}
+.selectDate {
+  border: 1px solid rgb(208, 206, 206);
+  width: 21%;
+}
+.selectMonth {
+  border: 1px solid rgb(208, 206, 206);
+  width: 21%;
+}
+.clickingCreateAccount {
+  text-align: center;
+  color: grey;
+}
+.clickingCreateAccount {
+  font-size: small;
+}
+
+.sign_in {
+  color: #17a2b8;
+}
+.sign_in:hover {
+  color: blue;
+}
+
+@media screen and (max-width: 1440px) {
+  .signUpInnerBox {
+    margin-left: 2%;
+    margin-right: 0;
+    width: 35%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .signupContainer {
+    /* width:100%; */
+
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .signupBox {
+    width: 100%;
+  }
+  .signuptextContent {
+    margin-right: 0;
+    width: 50%;
+
+    margin-left: 5px;
+    padding-right: 0;
+
+    padding-top: 3%;
+    border-radius: 10px;
+  }
+  .signuptextContent {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .signupBox {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .signupBox {
+    font-size: small;
+  }
+  .signupheader {
+    font-size: 20px;
+  }
+  .corporateuser {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .signupBox {
+    font-size: small;
+  }
+  .signupheader {
+    font-size: medium;
+  }
+  .corporateuser {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 768px) {
+  .signupBox {
+    display: inline-block;
+  }
+  .signUpInnerBox {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 4%;
+  }
+  .signuptextContent {
+    width: 83%;
+    margin-left: 3%;
+    margin-top: 4%;
+  }
+  .selectyear {
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .signUpInnerBox {
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 4%;
+  }
+}

@@ -1,0 +1,151 @@
+*{
+  font-family:sans-serif;
+}
+.chatCardContainer {
+  width: 270px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 0;
+  top: 46%;
+  left: 75%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.chatCardInnerContainer {
+  padding-bottom: 0;
+  margin-top: 8%;
+  margin-bottom: 10px;
+  background-color: rgb(223, 24, 24);
+  box-shadow: 0 2px 5px grey;
+  width: 270px;
+  margin-right: 10px;
+  z-index: 10000;
+  border-radius: 10px;
+  color: white;
+}
+.chatheaderpara {
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: 85%;
+  margin-left: 5%;
+  background-color: rgb(206, 8, 206);
+  box-shadow: 0 2px 15px grey;
+}
+.inputBoxField {
+  margin: auto;
+  width: 90%;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 15px grey;
+  padding-bottom: 15px;
+  background-color: rgb(245, 244, 244);
+}
+.inpUt {
+  margin-left: 5%;
+  outline: none;
+  margin-top: 5%;
+  border-radius: 7px;
+  border: 1px solid grey;
+  width: 80%;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+}
+.textArea {
+  margin-left: 10%;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 10px;
+}
+.SUBMIT {
+  background-color: rgb(27, 176, 176);
+  width: 197px;
+  height: 35px;
+  margin-top: 15px;
+  box-shadow: 0 2px 5px grey;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.chatheaderpara {
+  border-radius: 10px;
+}
+.submitButtonDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.checkPara {
+  font-size: small;
+  margin-left: 5px;
+}
+.CHECKBOXdiv {
+  display: flex;
+  color: black;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.WhatareyoulookingText {
+  color: black;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.chatCardInnerContainer {
+  background-color: rgb(229, 226, 226);
+}
+
+/***Schrolling ****/
+
+.chatCardInnerContainer {
+  height: 300px;
+  overflow: hidden;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.chatCardInnerContainer {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+@media(max-width:1024px){
+  .chatCardContainer {
+  
+    top: 46%;
+    left: 75%;
+    position: fixed;
+    z-index: 1000;
+    left:60%;
+    top:53%;
+  }
+}
+
+
+@media(max-width:768px){
+  .chatCardContainer{
+    top: 37.5%;
+    left:50%;
+    position: fixed;
+    z-index: 1000;
+   
+    
+  }
+  
+}
+@media(max-width:425px){
+  .chatCardContainer {
+  
+    top: 39%;
+    left:20%;
+    position: fixed;
+    z-index: 1000;
+   
+  }
+}

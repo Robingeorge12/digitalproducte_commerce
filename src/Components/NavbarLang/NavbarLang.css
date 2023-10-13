@@ -1,0 +1,61 @@
+.navbarLang-div{
+    width: 100px;
+    display: flex;
+    height: auto;
+    border: 1px solid green;
+
+}
+.navbarLang-main-div{
+    width: 100% !important;
+    height: 100% !important;
+}
+.navbarLang-div-box1{
+    
+    display: flex;
+    width: 100px;
+    height: 100%;
+    gap: 10px;
+    color:black !important;
+    /* background-color: rgba(10, 248, 220, 0.162) !important; */
+
+}
+.MuiList-padding {
+    /* padding-top: 8px; */
+    /* padding-bottom: 8px; */
+    background-color: #17a2b8;
+    width: 160px !important;
+    
+    /* height: 50px !important; */
+    
+}
+.MuiMenu-paper {
+    max-height: calc(100% - 96px);
+    -webkit-overflow-scrolling: touch;
+    top: 30px !important;
+    left: 1400px !important;
+    width: 162px !important;
+    right: 87px !important;
+}
+
+
+@media screen and (max-width:1440px){
+
+    /* .MuiMenu-paper {
+        max-height: calc(100% - 96px);
+        -webkit-overflow-scrolling: touch;
+        top: 30px !important;
+      
+        right: 0px !important;
+    } */
+    .MuiMenu-paper {
+    
+        top: 30px !important;
+        left: 1306px !important;
+        width: 162px !important;
+        right: 87px !important;
+    }
+}
+
+@media screen and (max-width:1024px){
+    
+}

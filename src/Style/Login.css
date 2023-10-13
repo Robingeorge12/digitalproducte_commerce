@@ -1,0 +1,396 @@
+*{
+    font-family:sans-serif;
+}
+.loginPageMainContainer{
+    width:100%;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color:#ececf9;
+padding-top:10px;
+margin-top:0;
+
+
+}
+.myComponent{
+    position:fixed;margin-top:20px;padding-top:10px;margin-left:10%;border:none;
+}
+.newToGTMandSignupLink{
+    display:flex; width:100%; align-items:center;
+}
+.selectCountryBox{
+    margin-top:0;
+}
+.loginFirstChildBox{
+    box-shadow: 0 2px 3px grey;;
+width:29%;
+margin-bottom:20px;
+
+background-color: rgba(248, 247, 247, 0.935);
+ text-align: center;
+border-radius:10px ;
+padding:20px 7%;
+ margin-left:6%; 
+
+
+}
+.loginHeader{
+    text-align: center;
+}
+.or{
+    text-align:center;
+}
+.inputBox{
+    
+    display:flex;
+    height:40px;
+    justify-content: center;
+    justify-content: center;
+    padding-left:10px;
+   
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-radius: 5px;;
+    align-items: center;
+    background-color: #f3f3f6;
+    outline:none;
+    border-bottom:2px solid rgb(206, 203, 203);
+}
+.loginWithGoogle{
+    /* background-color: rgb(221, 76, 76); */
+    border:1px solid rgb(210, 207, 207);
+    color:rgb(145, 145, 145);
+    background-color: white;;
+    /* color:white; */
+    border-radius:5px;
+    width:100%;
+}
+.loginWithFacebook{
+    /* background-color: rgb(84, 84, 188);;
+    color:white; */
+    border:1px solid rgb(210, 207, 207);
+    color:rgb(147, 147, 147);
+    background-color: white;;
+    
+    /* color:white; */
+    width:100%;
+    border-radius:5px;
+}
+.loginWithGithub{
+    /* background-color: black;
+    color:white; */
+    border:1px solid rgb(210, 207, 207);
+    color:rgb(144, 144, 144);
+    background-color: white;;
+    /* color:white; */
+    width:100%;
+    border-radius:5px;
+}
+.login{
+    color:white;
+ 
+  /* background-color: rgb(64, 64, 249);; */
+
+  background-color: #17a2b8;
+      box-shadow: 0 2px 3px grey;;
+    width:120px;
+    height:35px;
+
+    border:none;
+    margin-right:15px;
+    border-radius: 7px;;
+     
+}
+.login:hover{
+    background-color: #046270;;
+}
+.textBoxButton:hover{
+    background-color: #086877;;
+}
+.loginbtnAndForgotpassword{
+    display:flex;
+   text-align: center;;
+   align-items:center;
+}
+.forgotpassword{
+    color:rgb(20, 144, 245);
+}
+.google{
+    width:20px;
+    height:20px;
+    background-color: white;;
+    border-radius: 4px;
+    margin-right:15px;
+}
+.facebook{
+    
+    color:rgb(47, 47, 197);
+    margin-right:10px;
+}
+.github{
+    margin-right:15px;
+    color:black;
+}
+.loginWithGoogle{
+   
+    color:black;
+}
+.loginWithFacebook{
+ 
+    color:black;
+}
+.loginWithGithub{
+ 
+    color:black;
+}
+
+.email{
+  
+    width:96%;
+    height:35px;
+    border-radius:3;
+}
+.password{
+    width:96%;
+    border-radius:3;
+  
+    height:35px;
+}
+.checkbox{
+    text-align: left;
+
+}
+.checkboxContainer{
+    display:flex;
+    justify-content: flex-start;
+}
+.label{
+    margin-bottom:0;
+    font-weight: 600;
+    text-align: left;
+    color:grey;
+    margin-left:10px;
+}
+.signup_link{
+    color:rgb(78, 173, 240);
+}
+.text_new{
+text-align:left;
+margin-right:30px;;
+font-weight: 600;
+color:grey;
+}
+.signup_link{
+    margin-left:5%;
+}
+.slectCountry{
+    display:flex;
+    justify-content: flex-end;
+    width:100px;
+    border-radius:5px;
+    border:none;
+    outline:none;
+    padding-left:10px;
+}
+.selectCountryBox{
+display:flex;justify-content:flex-end;
+margin-top:30px;
+margin-right:60px;
+
+height:30px;
+}
+.loginSecondChildBox{
+    width:60%;
+
+}
+.gtmx{
+    text-align:center;
+font-family:serif;
+
+}
+.x{
+    color:rgb(8, 8, 147);
+    
+} 
+.contentBox1{
+    display:flex;
+    width:100%;
+
+}
+.textBox{
+    margin-top:2%;
+    font-size:16px;
+}
+.textBoxButton{
+background-color: #17a2b8;;
+padding:10px 20px;
+color:white;
+box-shadow: 0 2px 3px grey;;
+border:none;
+border-radius:5px;
+
+}
+.contentBox2{
+    display:flex;
+}
+
+.linkInlogin{
+text-decoration: none;color:  #05b1cb;;
+}
+.linkInlogin:hover{
+    color:blue;
+}
+
+
+.mainBoxForBothChild{
+ display:flex;
+ width:100%;
+}
+.loginPageMainContainer{
+    width:100%;
+    margin:0;
+    padding-left:3%;
+
+} 
+.loginWithGoogle{
+    box-shadow: 0 1px 2px rgb(147, 145, 145);
+}
+.loginWithFacebook{
+    box-shadow: 0 1px 2px rgb(114, 113, 113);
+}
+.loginWithGithub{
+    box-shadow: 0 1px 2px rgb(114, 113, 113);
+}
+
+
+@media screen and (max-width: 1440px) {
+    .selectCountryBox{
+        margin-right:19%;
+    }
+    .loginFirstChildBox{
+        width:20%;
+        margin-left:1%;
+    }
+    .textBox{
+        padding-right:25px;
+    }
+}
+ @media screen and (max-width: 1024px) {
+    .contentBox1{
+        display:inline-block;
+     
+    }
+    .imgContainer{
+        width:85%;
+       
+        height:250px;
+        padding-left:10%;
+    }
+    .affiliate{
+        background-size: cover;
+        width:70%;
+
+        height:220px;
+    }
+    .textBox{
+        margin-left:10%;
+        width:75%;
+        padding-left:10%;
+        padding-right:10%;
+
+
+    }
+    .contentBox2{
+        display:inline-block;
+        width:100%;
+        margin-bottom:6%;
+    }
+    .imgContainer{
+         width:85%;
+       margin-top:0;
+        height:200px;
+        padding-left:10%;
+    }
+    .sales_agencyImg{
+        height:200px;
+        width:70%;
+    }
+    .textBox{
+        margin-left:5%;
+        width:75%;
+        padding-right:20px;
+        font-size: small;
+    }
+    .selectCountryBox{
+        margin-right:15%;
+    }
+    .gtmx{
+        margin-bottom:0;
+
+    }
+    .loginFirstChildBox{
+        margin-left:2%;
+        margin-top:0;
+    }
+    .mainBoxForBothChild{
+        margin-right:0;
+
+    }
+    .loginPageMainContainer{
+        width:100%;
+        margin-right:0;
+        padding-right:0;
+
+    }
+} 
+@media screen and (max-width: 768px){
+.inputBox{
+    width:240px;
+    margin-left:0;
+}
+
+.loginFirstChildBox{
+    padding-left:2%;
+    width:28%;
+    margin-left:0;
+}
+.email{
+    width:237px;
+
+}
+.password{
+    width:237px;
+}
+
+}
+
+@media screen and (max-width:425px) {
+.mainBoxForBothChild{
+    display:inline-block;
+    font-size:small;
+}
+.loginFirstChildBox{
+    margin-left:5%;
+   margin-right:5%;
+   margin-top:20px;
+    width:65%;padding-left:10%;
+   
+}
+.inputBox{
+    width:90%;
+   
+    
+}
+.loginSecondChildBox{
+    width:100%;
+    
+}
+.textBox{
+    margin-left:5%;
+    width:65%;
+    padding-right:5%;
+    font-size: small;
+}
+
+}

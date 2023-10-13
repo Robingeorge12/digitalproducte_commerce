@@ -1,0 +1,486 @@
+*{
+  font-family:sans-serif;
+}
+.IotCodeContainer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #efebeb;
+  border: 1px solid rgb(247, 246, 246);
+}
+
+.SourceCodeMainContainer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #efebeb;
+}
+.SourceCodeBoxHeader {
+  display: flex;
+  background-color: white;
+  height: 60px;
+
+  width: 100%;
+  position: fixed;
+  padding-left: 4%;
+  z-index: 1000;
+  margin-bottom: 20px;
+  padding-right: 4%;
+  justify-content: space-between;
+
+  background-color: rgb(243, 247, 247);
+  box-shadow: 0 2px 15px rgb(233, 204, 204);
+}
+.fileDirectoryBox {
+  display: flex;
+  align-items: center;
+
+  background-color: white;
+}
+.fileDirectoryBox {
+  margin-top: 15px;
+  background-color: rgb(183, 225, 239);
+  height: 30px;
+  padding-left: 20px;
+
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+
+.sourceFileHeaderSelector {
+  margin-top: 15px;
+
+  background-color: rgb(183, 225, 239);
+  margin-right: 10%;
+  height: 30px;
+  border: none;
+}
+.anglebracket {
+  color: grey;
+}
+.cardContainer {
+  display: flex;
+  margin-top: 4%;
+  width: 100%;
+}
+.CardBox1 {
+ 
+  width: 100%;
+  margin-left: 2%;
+ 
+}
+.filterInputBox {
+  width: 87%;
+
+  border: none;
+  height: 30px;
+  border-radius: 7px;
+  outline: none;
+  padding-left: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.industries {
+  margin-left: 10px;
+}
+.checkBoxDiv {
+  display: flex;
+  margin-top: 8px;
+}
+
+.check {
+  margin-right: 10px;
+  margin-left: 4%;
+}
+.rightSideCardSection {
+  
+
+  width: 70%;
+  margin-left: 3%;
+}
+.card_Div {
+  width: 26%;
+  background-color: white;
+  padding: 3% 3%;
+  margin-top: 25px;
+  border-radius: 7px;
+}
+.Buy_Button {
+  /* background-color: #17a2b8; */
+  background-image: linear-gradient(cyan, rgb(159, 159, 248));
+  color: white;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 3px grey;
+  height: 30px;
+  width: 100px;
+}
+.Buy_Button:hover {
+  
+  background-image: linear-gradient(rgb(12, 210, 210), rgb(159, 159, 248));
+}
+.iconContainer {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  display: flex;
+  align-items: center;
+}
+.cardIcon {
+  margin-right: 6px;
+  color: #0c5d69;
+}
+.loadmoreDiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.load_more {
+  width: 225px;
+  height: 35px;
+  color: white;
+  
+  background-image: linear-gradient(cyan, rgb(159, 159, 248));
+  margin-top: 2%;
+  border: none;
+  box-shadow: 0 2px 5px rgb(87, 86, 86);
+  border-radius: 6px;
+}
+.load_more:hover {
+  background-image: linear-gradient(rgb(12, 210, 210), rgb(159, 159, 248));
+}
+.bgImageContainer {
+  width: 100%;
+ 
+  height: auto;
+}
+.bgInnerContainer {
+  width: 100%;
+ 
+  height: auto;
+
+  padding-right: 10px;
+  position: relative;
+}
+
+#marginR {
+  margin-left: 20px;
+}
+
+.buy_button_div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.img13 {
+  width: 100%;
+  background-size: cover;
+  border-top-left-radius: 20px;
+  border-radius: 10px;
+}
+.img13:hover {
+  box-shadow: 0 2px 4px solid rgb(247, 246, 246);
+}
+.buy_button_div{
+  display:flex;
+  align-items: center;
+}
+#www{
+  display:flex;
+  align-items: center;
+}
+.fontSizeSmall{
+  font-size:small;
+}
+.bgImg2Container {
+  width: 100%;
+  height: 300px;
+ 
+   background-image: url("https://www.piecex.com/assets/img/common/bannerFrameOss.png"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.childBox_bgImg2Container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  height: 220px;
+
+  transform: translate(-50%, -50%);
+  display: flex;
+ 
+  background-color: rgba(141, 23, 141, 0.82);
+   opacity: 0.8; 
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.inputfield_bgImg2Container {
+  width: 45%;
+  opacity: 1;
+}
+.input-inputfield {
+  width: 90%;
+
+  padding-left: 10px;
+  outline: none;
+  background-color: white !important;
+  border-radius: 16px;
+  height: 30px;
+}
+
+.suscribeButton-bgImg2Container {
+  color: black;
+  background-color: white;
+  width: 130px;
+  border-radius: 10px;
+  height: 33px;
+  margin-top: 20px;
+  margin-left: 1%;
+}
+.bgImg2Container-para {
+  display: block;
+  color: white;
+  width: 45%;
+  margin-left: 2%;
+
+  padding-right: 2%;
+  padding-left: 2%;
+}
+.bgImg2Container-para {
+  padding-top: 3%;
+  display: block;
+  font-weight: 600;
+}
+.suscribeButton-bgImg2Container {
+  background-color: aqua;
+  border: none;
+  box-shadow: 0 2px 4px rgb(44, 44, 44);
+}
+.suscribeButton-bgImg2Container:hover {
+  background-color: rgb(19, 222, 222);
+  color: white;
+}
+.footer_SourceCode {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(to top, rgb(175, 217, 249), white);
+}
+.sourceCode-Footer-icons-box {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f0f0;
+}
+.MusicNoteIcon {
+  color: rgb(23, 242, 52);
+}
+.iconBox {
+  width: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 1px 3px rgb(81, 81, 81);
+  margin-right: 20px;
+}
+.iconBox:hover {
+  box-shadow: 0 3px 10px rgb(86, 182, 255);
+}
+
+.YouTubeIcon {
+  background-color: red;
+}
+.YouTubeIcon:hover {
+  background-color: rgb(189, 4, 4);
+}
+.linkedInIcon {
+  background-color: blue;
+}
+.linkedInIcon:hover {
+  background-color: rgb(9, 9, 94);
+}
+.instagramIcon {
+  background-color: rgb(252, 150, 167);
+}
+.instagramIcon:hover {
+  background-color: rgb(165, 88, 101);
+}
+.TwitterIcon {
+  background-color: rgb(7, 156, 156);
+}
+.TwitterIcon:hover {
+  background-color: rgb(11, 91, 91);
+}
+.fbIconIcon {
+  background-color: rgb(139, 139, 245);
+}
+.fbIconIcon:hover {
+  background-color: rgb(41, 41, 138);
+}
+
+.linkedInIcon {
+  background-color: blue;
+}
+.linkedInIcon:hover {
+  background-color: rgb(5, 5, 54);
+}
+.icOn {
+  color: white;
+}
+.bgImageContainer {
+  border-radius: 6px;
+}
+.bgInnerContainer {
+  border-radius: 8px;
+}
+.CardPageImg1 {
+  width: 100%;
+}
+.rightSideCardSection {
+  padding-top: 3%;
+}
+.iconContainer {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: small;
+  height: 40px;
+}
+
+.CardPageImg1 {
+  border-top-left-radius: 15px;
+}
+.fontSizeSmall {
+  font-size: small;
+}
+.displayFlux_justifyContent_spaceround {
+  display: flex;
+  justify-content: space-around;
+}
+.shopping_cartImg {
+  height: 130px;
+  border: 1px solid rgb(223, 221, 221);
+}
+.laravelImg {
+  height: 130px;
+}
+.cryptonImg {
+  height: 124px;
+  border: 1px solid rgb(203, 202, 202);
+}
+.sqlitebite {
+  border: 1px solid rgb(214, 214, 214);
+  height: 130px;
+}
+.thumbnail-Activiti {
+  border: 1px solid rgb(224, 224, 224);
+}
+.mezzanine {
+  border: 1px solid rgb(224, 222, 222);
+  height: 123px;
+}
+.snowplow {
+  height: 140px;
+}
+.ui-editor {
+  height: 135px;
+}
+.blue {
+  color: blue;
+}
+.linkText:hover {
+  color: rgb(255, 147, 5);
+}
+
+.checkInputBoxMain {
+  background-color: white;
+  width: 97%;
+  height: 148px;
+  overflow: hidden;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding-right: 5px;
+}
+.scrollableBox {
+  width: 100%;
+  height: 148px;
+  overflow: hidden;
+}
+
+.scrollableBox {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.scrollableBox::-webkit-scrollbar {
+  width: 10px;
+}
+.scrollableBox::-webkit-scrollbar-track {
+  background: #ebe9e9;
+  border: 1px solid rgb(211, 208, 208);
+  border-radius: 3px;
+  height: 50px;
+}
+
+.scrollableBox::-webkit-scrollbar-thumb {
+  background: #03755e;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.sqlitebite_ {
+  height: 130px;
+}
+.laravelImg_ {
+  border: 1px solid rgb(178, 176, 176);
+  height: 134px;
+}
+.thumbnail-program_noimage {
+  border: 1px solid rgb(233, 231, 231);
+}
+.CardPageImg1{
+  width:100%;
+  transition:transform 1s;
+}
+.filterInputBox{
+  box-shadow: 0 1px 10px rgb(187, 183, 183);
+}
+
+.CardPageImg1:hover{
+  box-shadow: 0 3px 10px rgb(159, 159, 193);
+  transition: 0.3s ease-in-out;;
+  /* transform:translateZ(10px); */
+}
+.checkInputBoxMain{
+  box-shadow: 0 1px 10px rgb(187, 183, 183);
+}
+
+.IconBoxParentDiv{
+  display: flex; align-items:center; margin-right:4%;
+}
+.spanFontSize{
+  font-size:small;
+}
+@media(max-width:768px){
+  #card_DivId{
+ margin-top:22%;
+  }
+}
+

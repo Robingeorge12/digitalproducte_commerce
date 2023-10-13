@@ -1,0 +1,326 @@
+
+.testimony-container{
+    width: 97vw;
+    height: 60vh;
+    margin:auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 20px 0px;
+}
+.testimony-container-div1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    /* align-items: center; */
+    margin: auto;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+}
+
+.testimony-container-div1-head {
+    font-size: 38px;
+    font-family: sans-serif;
+    display: flex;
+    /* border: 1px solid green; */
+    margin: 10px 0px 0px 0px;
+  }
+  .testimony-container-div1-head-s1 {
+    background: -webkit-linear-gradient(rgb(60 177 245), rgb(147, 147, 184));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* margin-left: 10px; */
+  }
+  
+  .testimony-container-div1-text {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid green; */
+  
+  }
+  
+  .testimony-container-div1-text-p {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 33px;
+    /* border: 1px solid red; */
+    margin: 0px;
+  }
+  /* {div 2..........................................} */
+
+  .testimony-container-div2{
+    width: 85%;
+    height: 70%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 30px; */
+
+  }
+
+
+  .testimony-container-div2-card{
+
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(60 177 245);
+    border-radius: 15px;
+    margin: auto;
+  }
+
+/* {img....................} */
+
+.testimony-container-div2-imgdiv{
+    width:200px;
+    height:100px;
+    border: 1px solid  rgb(60 177 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.testimony-container-div2-img{
+    width: 50%;
+    height: 100%;
+}
+
+/* {comments...............................} */
+
+.testimony-container-div2-textdiv{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    /* border: 2px solid yellow; */
+
+}
+.testimony-container-div2-text-p{
+    font-size: 18px;
+    /* background: -webkit-linear-gradient(aliceblue,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color:white;
+}
+
+
+/* {name...............................................} */
+
+.testimony-container-div2-namediv{
+    width: 200px;
+    height: 50px;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimony-container-div2-md-name{
+
+    font-weight: 700;
+    font-size: 16px;
+    color:white;
+}
+
+/* {comany...........................................} */
+
+.testimony-container-div2-company{
+
+    width: 200px;
+    height: 20px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+.testimony-container-div2-company-name{
+color: white;
+    font-weight: 700;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+  .css-ohwg9z {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.css-1f8sh1y {
+    position: relative;
+    width: 100%;
+    height: 100% !important;
+}
+
+
+
+@media screen and (max-width:1440px){
+
+  .testimony-container{
+    width: 97vw;
+    height: 60vh;
+    margin:auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 20px 0px;
+}
+.css-ohwg9z {
+  position: relative;
+  overflow: hidden;
+  /* width: 921px; */
+  height: 300px;
+  /* background-color: aqua; */
+}
+.testimony-container-div2{
+  width: 93%;
+  height: 70%;
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 30px; */
+  margin-left: 10px;
+
+}
+
+}
+
+
+
+@media screen and (max-width:1024px){
+  
+
+  .css-ohwg9z {
+    position: relative;
+    overflow: hidden;
+    width:921px;
+    height: 290px;
+    /* background-color: aqua; */
+}
+
+.testimony-container-div2{
+  width: 93%;
+  height: 70%;
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 30px; */
+  margin-left: 10px;
+
+}
+}
+
+
+
+@media screen and (max-width:768px){
+  
+  .testimony-container{
+    width: 97vw;
+    height: 60vh;
+    margin:auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+
+  .css-ohwg9z {
+    position: relative;
+    overflow: hidden;
+    width:921px;
+    height: 320px;
+    /* background-color: aqua; */
+}
+
+.testimony-container-div2{
+  width: 99%;
+  height: 295px;
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 30px; */
+  margin-top: 20px;
+
+}
+.testimony-container-div2-company {
+  width: 200px;
+  height: 20px;
+  /* border: 2px solid yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -10px 0px 0px 0px;
+}
+
+}
+
+
+
+@media screen and (max-width:426px){
+  
+  .testimony-container {
+    width: 97vw;
+    height: 81vh;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 20px 0px;
+}
+.testimony-container-div2 {
+  width: 99%;
+  height: 423px;
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 30px; */
+  margin-top: 20px;
+}
+.css-ohwg9z {
+  position: relative;
+  overflow: hidden;
+  width: 921px;
+  height: 420px;
+  /* background-color: aqua; */
+}
+
+.testimony-container-div2-imgdiv {
+  width: 408px;
+  height: 100px;
+  border: 1px solid rgb(60 177 245);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 17px;
+}
+
+
+
+}

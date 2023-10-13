@@ -1,0 +1,27 @@
+.goog-te-gadget {
+    font-family: sans-serif !important;
+    font-size: 12px;
+    color: #666;
+    white-space: nowrap;
+    width: 119px !important;
+    background-color: rgb(0 0 0 / 60%) !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd, .VIpgJd-ZVi9od-l4eHX-hSRGPd:link, .VIpgJd-ZVi9od-l4eHX-hSRGPd:visited, .VIpgJd-ZVi9od-l4eHX-hSRGPd:hover, .VIpgJd-ZVi9od-l4eHX-hSRGPd:active {
+   
+    display: none !important;
+}
+div#google_translate_element {
+    width: 118px !important;
+    /* border: 1px solid green; */
+}
+.goog-te-gadget .goog-te-combo {
+    margin: 0px 0px 0px -3px !important;
+    width: 124px !important;
+    height: 43px !important;
+    margin: auto;
+    border: none;
+
+}

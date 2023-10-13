@@ -1,0 +1,223 @@
+.sell-container {
+  width: 97vw;
+  height: 40vh;
+  /* border: 2px solid blue; */
+  margin: auto;
+  display: flex;
+}
+.sell-container-div1 {
+  width: 60%;
+  height: 100%;
+  /* border: 1px solid green; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.sell-container-div1-head{
+font-size: 38px;
+font-family: sans-serif;
+display: flex;
+margin: 0px;
+
+}
+.sell-container-div1-head-s1{
+    background: -webkit-linear-gradient(cyan, rgb(147, 147, 184));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 10px;
+}
+
+
+.sell-container-div1-text{
+width: 90%;
+height: auto;
+margin:10px 0px 0px 0px;
+/* border: 1px solid green; */
+
+}
+.sell-container-div1-text-p-s1{
+    font-weight: 700;
+
+}
+
+.sell-container-div1-text-p{
+    display: inline-block;
+    align-items: center;
+ text-align: justify;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 33px;
+    margin:20px 0px 0px 0px;
+    /* border: 1px solid red; */
+}
+
+
+.sell-container-div1-btn{
+    width: 120px;
+    height: 40px;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: aliceblue;
+  
+    background-image: linear-gradient(cyan, rgb(147, 147, 184));
+    border-radius: 4px;
+    border: 1px solid cyan;
+    margin-left: 50px;
+    margin-top: 45px;
+}
+.sell-container-div2 {
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid red; */
+  margin: auto;
+  display: flex;
+}
+
+.sell-container-div2-img{
+    width: 100%;
+    height: 100%;
+    border-radius:18px ;
+}
+
+
+@media screen and (max-width:1440px){
+
+}
+
+@media screen and (max-width:1024px){
+  
+  .sell-container {
+    width: 96vw;
+    height: 40vh;
+    /* border: 2px solid blue; */
+    margin: auto;
+    display: flex;
+}
+
+  .sell-container-div2 {
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    margin-left: -34px;
+}
+}
+
+@media screen and (max-width:768px){
+  
+  .sell-container {
+    width: 97vw;
+    height: 98vh;
+    /* border: 2px solid blue; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sell-container-div1 {
+  width: 100%;
+  height: 26%;
+  /* border: 1px solid green; */
+  margin: 0px 0px 165px 0px;
+}
+.sell-container-div2 {
+  width: 60%;
+  height: 53%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  margin: -164px 0px 0px 116px;
+}
+.sell-container-div1-btn {
+  width: 120px;
+  height: 40px;
+  padding: 0px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: aliceblue;
+  background-image: linear-gradient(cyan, rgb(147, 147, 184));
+  border-radius: 4px;
+  border: 1px solid cyan;
+  margin-left:116px;
+  margin-top: -13px;
+  position: relative;
+  top: 430px;
+}
+/* .sell-container-div2 {
+  width: 60%;
+  height: 53%;
+  border: 1px solid red;
+} */
+
+
+}
+
+@media screen and (max-width:426px){
+  .sell-container {
+    width: 97vw;
+    height: 82vh;
+    /* border: 2px solid blue; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+  .sell-container-div1-head {
+    font-size: 35px;
+    font-family: sans-serif;
+    display: flex;
+    margin: 0px;
+}
+
+.sell-container-div1-text-p {
+  display: inline-block;
+  align-items: center;
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 33px;
+  margin: 5px 0px 0px 0px;
+  line-height: 21px;
+  /* border: 1px solid red; */
+}
+.sell-container-div2 {
+  width: 100%;
+  height: 53%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  margin: -203px 0px 0px 0px;
+}
+
+.sell-container-div1 {
+  width: 100%;
+  height: 26%;
+  /* border: 1px solid green; */
+  margin: 2px 0px 210px 0px;
+}
+
+.sell-container-div1-btn {
+  width: 120px;
+  height: 40px;
+  padding: 0px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: aliceblue;
+  background-image: linear-gradient(cyan, rgb(147, 147, 184));
+  border-radius: 4px;
+  border: 1px solid cyan;
+  margin-left:116px;
+  margin-top: -75px;
+  position: relative;
+  top: 430px;
+}
+
+}

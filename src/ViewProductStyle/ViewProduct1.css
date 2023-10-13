@@ -1,0 +1,613 @@
+*{
+  font-family: sans-serif;
+}
+
+.viewProduct1MainContainer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color:rgb(212, 229, 245);  */
+  background-color: rgb(229, 242, 242); 
+  border: 1px solid rgb(247, 246, 246);
+}
+
+#lineheight{
+  line-height:18px;
+  font-size:15px;
+  font-weight: 400;
+  color:black;line-height:22px;
+}
+.bgImg2Container {
+  width: 100%;
+  height: 300px;
+  
+   background-image: url("../../public/bannerFrame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+  position: relative;
+}
+.childBox_bgImg2Container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  height: 220px;
+
+  transform: translate(-50%, -50%);
+  display: flex;
+ 
+  background-color: rgba(141, 23, 141, 0.82);
+  opacity: 0.8;
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.inputfield_bgImg2Container {
+  width: 45%;
+  opacity: 1;
+}
+.input-inputfield {
+  width:87%;
+
+  padding-left: 10px;
+  outline: none;
+  background-color: white !important;
+  border-radius: 16px;
+  height: 30px;
+}
+
+.suscribeButton-bgImg2Container {
+  color: black;
+  background-color: white;
+  width: 130px;
+  border-radius: 10px;
+  height: 33px;
+  margin-top: 20px;
+  margin-left: 1%;
+}
+.bgImg2Container-para {
+  display: block;
+  color: white;
+  width: 45%;
+  margin-left: 2%;
+
+  padding-right: 2%;
+  padding-left: 2%;
+}
+.bgImg2Container-para {
+  padding-top: 3%;
+  display: block;
+  font-weight: 600;
+}
+.suscribeButton-bgImg2Container {
+  background-color: aqua;
+  border: none;
+  box-shadow: 0 2px 4px rgb(44, 44, 44);
+}
+.suscribeButton-bgImg2Container:hover {
+  background-color: rgb(19, 222, 222);
+  color: white;
+}
+.footer_SourceCode {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(to top, rgb(175, 217, 249), white);
+}
+.sourceCode-Footer-icons-box {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f0f0;
+}
+.MusicNoteIcon {
+  color: rgb(23, 242, 52);
+}
+.iconBox {
+  width: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 1px 3px rgb(81, 81, 81);
+  margin-right: 20px;
+}
+.iconBox:hover {
+  box-shadow: 0 3px 10px rgb(86, 182, 255);
+}
+
+.YouTubeIcon {
+  background-color: red;
+}
+.YouTubeIcon:hover {
+  background-color: rgb(189, 4, 4);
+}
+.linkedInIcon {
+  background-color: blue;
+}
+.linkedInIcon:hover {
+  background-color: rgb(9, 9, 94);
+}
+.instagramIcon {
+  background-color: rgb(252, 150, 167);
+}
+.instagramIcon:hover {
+  background-color: rgb(165, 88, 101);
+}
+.TwitterIcon {
+  background-color: rgb(7, 156, 156);
+}
+.TwitterIcon:hover {
+  background-color: rgb(11, 91, 91);
+}
+.fbIconIcon {
+  background-color: rgb(139, 139, 245);
+}
+.fbIconIcon:hover {
+  background-color: rgb(41, 41, 138);
+}
+
+.linkedInIcon {
+  background-color: blue;
+}
+.linkedInIcon:hover {
+  background-color: rgb(5, 5, 54);
+}
+.icOn {
+  color: white;
+}
+.bgImageContainer {
+  border-radius: 6px;
+}
+.bgInnerContainer {
+  border-radius: 8px;
+}
+.CardPageImg1 {
+  width: 100%;
+}
+.rightSideCardSection {
+  padding-top: 3%;
+}
+.iconContainer {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: small;
+  height: 40px;
+}
+
+.IconBoxParentDiv {
+  display: flex;
+  align-items: center;
+}
+.ViewProductInnerContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
+ 
+  height: auto;
+}
+.childFirstLeft {
+  width: 45%;
+ 
+  height: 400px;
+  border-radius: 8px;
+  background-color: white;
+}
+.im_gContainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-left: 10%;
+ 
+}
+.scrollImage {
+  width: 400px;
+  height: 300px;
+
+  margin-top: 4%;
+}
+
+.childFirstRight {
+  width: 38%;
+ 
+  height: 400px;
+  margin-left: 3%;
+  background-color: #fffefe;
+  border-radius: 8px;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.TextContentVewProductChildDiv {
+  width: 23%;
+  
+  border-radius: 10px;
+  box-shadow:0 1px 5px grey;
+  padding-left: 3%;
+  padding-bottom: 4%;
+}
+
+.typeBoxes {
+  border-radius: 10px;
+  width: 90%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 25px;
+  padding-top:5px;
+  margin-right:2%;
+  margin-left: 0; margin-top: 6px;
+border-radius:5px;
+  
+  color:white;
+ 
+  background-color: rgb(251, 208, 100);
+}
+
+
+.hoverclassPurple:hover {
+  
+ color:rgb(96, 160, 199);;
+ 
+}
+.fontweight {
+  font-weight: 500;
+  color: rgb(75, 74, 74);
+  margin-top: 0;
+  font-size: small;
+  margin-bottom: 0;
+}
+.TextContentVewProductChildDiv_ {
+  width: 23%;
+  
+box-shadow:0 1px 5px grey;
+  height: 100px;
+  border-radius: 10px;
+ 
+  padding-left: 3%;
+  padding-bottom: 4%;
+}
+
+.TextContentVewProductChildDiv_:hover {
+  transition: 0.5s ease-in-out;
+  scale: 1.03;
+  box-shadow: 0 3px 10px grey;
+}
+
+.TextContentVewProductChildDiv:hover {
+  transition: 0.5s ease-in-out;
+  scale: 1.03;
+  box-shadow: 0 3px 10px grey;
+}
+#bgcolorPinkColorBlack{
+  position:relative;
+}
+
+.ProductAndDataSheetButonBox {
+  display: flex;
+  justify-content: space-around;
+}
+.productPagee {
+  width: 35%;
+  height: 35px;
+  border-radius: 10px;
+
+  color: white;
+  border: none;
+  box-shadow: 0 2px 4px grey;
+  
+   background-image: linear-gradient(cyan, rgb(147, 147, 184));
+}
+.productPagee:hover {
+   
+    background-image: linear-gradient(rgb(0, 255, 145), rgb(147, 147, 184));
+}
+
+.dataSheet {
+  width: 35%;
+  height: 35px;
+  border-radius: 10px;
+ 
+  background-image: linear-gradient(cyan, rgb(147, 147, 184));
+  color:white;
+  border: none;
+  box-shadow: 0 2px 5px rgb(160, 158, 158);
+}
+
+.dataSheet:hover {
+  background-color:rgb(170, 216, 230);
+}
+
+.hardwareDiv {
+  height: auto;
+  padding-bottom: 5px;
+}
+.angleBracketButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  border: none;
+  position: absolute;
+  left: 90%;
+  top: 40%;
+  color: rgb(71, 70, 70);
+  box-shadow: 0 2px 5px grey;
+}
+.childFirstLeft {
+  position: relative;
+}
+.angleBracketButton2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  border: none;
+  position: absolute;
+  left: 6%;
+  top: 40%;
+  color: rgb(71, 70, 70);
+  box-shadow: 0 2px 5px grey;
+}
+.angleBracketButton2 {
+  padding-left: 5px;
+}
+.angleBracketButton2:hover {
+  background-color: rgb(126, 200, 224);
+  color: white;
+}
+.angleBracketButton2:active {
+  color: white;
+  box-shadow: 0 2px 5px grey;
+  background-color: aqua;
+}
+.angleBracketButton:hover {
+  background-color: rgb(126, 200, 224);
+  color: white;
+}
+.angleBracketButton:active {
+  color: white;
+  box-shadow: 0 2px 5px grey;
+  background-color: aqua;
+}
+.TextContentVewProductChildDiv_FooterDiv {
+  width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+ 
+  margin-top: 50px;
+}
+.viewProductDiscruptionDiv {
+  width: 92%;
+  height: auto;
+
+  margin-left: 5.4%;
+}
+.viewProductDiscruption_BuyNow_AddFavourite_btn {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: white;
+  justify-content: space-around;
+}
+.BUYNOWBtn {
+  width: 40%;
+  height: 40px;
+  color: white;
+  font-weight: 700;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(231, 76, 187);
+  box-shadow: 0 1px 5px grey;
+  
+  background-color:rgb(6, 131, 121);
+  
+}
+.BUYNOWBtn:hover {
+  background-image: linear-gradient(rgb(115, 244, 205), rgb(147, 147, 184));
+ 
+}
+.AddfavouritesBtn {
+  width: 40%;
+  height: 40px;
+  color: white;
+  font-weight: 700;
+
+  border-radius: 6px;
+  border: none;
+  background-color: aliceblue;
+  background-color:rgb(6, 131, 121);
+  
+  box-shadow: 0 1px 5px grey;
+}
+.AddfavouritesBtn:hover {
+  background-color: rgb(179, 208, 235);
+}
+.DiscruptionMainContainer {
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+
+  border-radius: 8px;
+  background-color: white;
+}
+.DiscruptionMainContainer {
+  width: 100%;
+  padding-left: 0;
+ 
+  padding-bottom: 3%;
+  margin-bottom: 20px;
+ 
+}
+
+.Product_Specification_CompanyInfoDiv {
+  width: 100%;
+}
+.buttonforProductDetails {
+  width: 30%;
+
+  height: 35px;
+  border: 1px solid rgb(34, 0, 128);
+  border: none;
+
+  background-color: rgb(231, 76, 187);
+
+  border: 1px solid rgb(230, 226, 226);
+ 
+  text-shadow:0 2px 13px grey;
+  color:white;
+  background-color:rgb(249, 209, 107);
+ 
+  box-shadow:0 1px 8px grey;
+  
+}
+.buttonDeviceSpecification {
+  color: white;
+  width: 30%;
+  height: 35px;
+
+  color: black;
+  border:none;
+   box-shadow:0 1px 8px grey;
+  background-color: aliceblue;
+  
+}
+
+.discBox {
+  width: 50%;
+  padding-left: 3%;
+  padding-right: 5%;
+
+  text-align: left;
+}
+.discPara {
+  font-size: small;
+  line-height:22px;
+}
+.descImg {
+  margin-top: 5%;
+
+  width: 70%;
+  height: 350px;
+}
+.PRODUCTSPECIFICATIONbox {
+  width: 100%;
+}
+.marginTop_marginBottom0 {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: small;
+}
+.colorGrey {
+  color: rgb(143, 142, 142);
+}
+.CompanyINFORMATIONbOX {
+  width: 100%;
+}
+.AlignLeft_marginLeft2 {
+  font-size: small;
+  text-align: left;
+  margin-left: 2%;
+}
+.childFirstRight{
+  box-shadow:0 2px 15px rgb(202, 201, 201);
+}
+.CompanyInfoImage {
+  width: 50%;
+  margin-top: 3%;
+  border-top-left-radius: 20px;
+  height: 200px;
+  margin-left: 5%;
+}
+.childFirstLeft{
+  box-shadow:0 1px 15px rgb(195, 195, 195);
+}
+
+.hero_banner{
+    width:90%;
+    height:200px;
+    margin-top:15%;
+}
+.ulList{
+    font-size:small;
+    line-height: 30px;;
+}
+.arduinounorev3cropped{
+    width:90%;
+}
+.suscribeButton-bgImg2Container:hover{
+  background-color: rgb(220, 244, 230);
+  color:black;
+}
+.typeBoxes{
+  width:100px;
+}
+.TextContentVewProductChildDiv_{
+  width:120px;
+  margin-right:6px;
+}
+.TextContentVewProductChildDiv{
+  width:120px;
+  margin-right:6px;
+}
+.buttonforProductDetails{
+
+  margin-right:5px;
+  margin-left:4px;
+}
+.buttonDeviceSpecification{
+  margin-right:3px;
+  margin-left:3px;
+}
+.marginTop0{
+  margin-top:0;
+}
+.marginBottom0{
+  margin-bottom: 0;
+}
+.TextContentVewProductChildDiv_Parent{
+   display: flex; justify-content:space-around; margin-top:20px;
+  
+}
+.bgImageContainer__{
+position:relative;
+margin-top:10%; 
+margin-left:2%; 
+height:150px;
+margin-bottom:0;
+}
+.bgcolorPinkColorBlack_{
+  background-color: rgb(169, 15, 169);
+}
+
+@media(max-width:768px){
+  .scrollImage{
+    width:70%;
+    margin-top:50px;
+    height:270px;
+  }
+  .angleBracketButton{
+    left:84%;
+
+  }
+  .childFirstRight{
+     width:400px;
+     margin-right:10px;
+  }
+}

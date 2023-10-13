@@ -1,0 +1,174 @@
+.lan-cont{
+    width: 118px;
+    height: 48px !important;
+    /* border: 1px solid blue !important; */
+    /* margin-top: -8px !important; */
+    margin: auto !important;
+    /* width: 80px;
+    height: 50px;
+    border: 1px solid red; */
+}
+#age-simple{
+    width: 100% !important;
+    height: 100% !important;
+    background-color: bisque !important;
+}
+
+.MuiBox-root-32 {
+    /* width: 100% !important; */
+    /* border: 1px solid white; */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+}
+
+/* .MuiInputBase-root {
+    color: rgba(0, 0, 0, 0.87);
+    cursor: text;
+    display: flex;
+    position: relative;
+    font-size: 12px !important;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.1876em;
+    letter-spacing: 0.00938em;
+ 
+    height: 45px !important;
+
+} */
+/* .MuiList-padding {
+ 
+    background-color: #17a2b8 !important;
+    width: 160px !important;
+
+} */
+
+/* .MuiInputBase-input {
+    font: inherit;
+    color: currentColor;
+    width: 118px !important;
+    border: 0;
+    height: 1.1876em;
+    margin: 0;
+    display: flex !important;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+} */
+/* .MuiMenuItem-root {
+    
+    width: 82px !important;
+   
+    overflow: hidden;
+    font-size: 12px !important;
+    box-sizing: border-box;
+    min-height: 48px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-top: 6px;
+    white-space: nowrap;
+
+    padding-bottom: 6px;
+    display: flex !important;
+
+    justify-content: left !important;
+    align-items: center;
+  
+    margin-left: -14px !important;
+    margin-top: -17px !important;
+
+} */
+
+/* 
+.MuiAvatar-root {
+    width: 34px !important;
+    height: 35px !important;
+    display: flex !important;
+    overflow: hidden;
+    position: relative;
+    font-size: 10px;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1;
+    user-select: none;
+    border-radius: 50%;
+    margin-left: 5px !important; */
+    /* justify-content: center; */
+/* } */
+
+/* @media screen and (max-width:1440px){
+
+
+    .MuiPopover-paper {
+        outline: 0;
+        position: absolute;
+        max-width: calc(100% - 32px);
+        min-width: 16px;
+        max-height: calc(100% - 32px);
+        min-height: 16px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        left: 1299px !important;
+    }
+}
+
+
+@media screen and (max-width:1024px){
+    
+
+    .MuiPopover-paper {
+        outline: 0;
+        position: absolute;
+        max-width: calc(100% - 32px);
+        min-width: 16px;
+        max-height: calc(100% - 32px);
+        min-height: 16px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        left: 890px !important;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    
+
+    
+    .MuiPopover-paper {
+        outline: 0;
+        position: absolute;
+        max-width: calc(100% - 32px);
+        min-width: 16px;
+        max-height: calc(100% - 32px);
+        min-height: 16px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        left: 640px !important;
+    }
+}
+
+
+@media screen and (max-width:426px){
+    
+
+    .MuiPopover-paper {
+        outline: 0;
+        position: absolute;
+        max-width: calc(100% - 32px);
+        min-width: 16px;
+        max-height: calc(100% - 32px);
+        min-height: 16px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        left: 330px !important;
+    }
+} */

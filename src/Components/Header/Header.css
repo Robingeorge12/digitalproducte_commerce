@@ -1,0 +1,309 @@
+.header-container {
+  width: 98vw;
+  height: 50px;
+  /* border: 1px solid yellow; */
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.header-container-main-div {
+  width: 80vw;
+  height: 50px;
+  /* border: 1px solid red; */
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* {1st part ......................................} */
+
+.header-div1-box2-select1 {
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+}
+.header-div1-box2-select1-buy {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.header-div1-box2-select1-hover {
+  width: 148px;
+  height: 4px;
+  background-color: #17a2b8;
+  /* 2,63,63 */
+  position: fixed;
+  margin-top: 48px;
+  margin: 48px 0px 0px -28px;
+}
+
+.header-div1-box2-select1-icondiv {
+  margin: 2px 0px 0px 10px;
+}
+.header-div1-box2-select1-icon {
+}
+/* {2nd part ..........................................} */
+
+.header-div1-box2-select2 {
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+}
+.header-div1-box2-select2-buy {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.header-div1-box2-select2-hover {
+  width: 111px;
+  height: 4px;
+  background-color: #17a2b8;
+  /* 2,63,63 */
+  position: fixed;
+  margin-top: 48px;
+  margin: 48px 0px 0px -38px;
+}
+
+.header-div1-box2-select2-icondiv {
+  margin: 2px 0px 0px 10px;
+}
+.header-div1-box2-select2-icon {
+}
+
+/* {3rd ............................................} */
+
+.header-div1-box2-select3 {
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+}
+.header-div1-box2-select3-buy {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.header-div1-box2-select3-hover {
+  width: 100px;
+  height: 4px;
+  background-color: #17a2b8;
+  /* 2,63,63 */
+  position: fixed;
+  margin-top: 48px;
+  margin: 48px 0px 0px -35px;
+}
+
+.header-div1-box2-select3-icondiv {
+  margin: 2px 0px 0px 10px;
+}
+.header-div1-box2-select3-icon {
+}
+
+/* {4th ..............................................} */
+
+.header-div1-box2-select4 {
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+}
+.header-div1-box2-select4-buy {
+  font-size: 16px;
+  font-family: fantasy;
+}
+.header-div1-box2-select4-hover {
+  width: 75px;
+  height: 4px;
+  background-color: #17a2b8;
+  /* 2,63,63 */
+  position: fixed;
+  margin-top: 48px;
+  margin: 48px 0px 0px -32px;
+}
+
+.header-div1-box2-select4-icondiv {
+  margin: 2px 0px 0px 10px;
+}
+.header-div1-box2-select4-icon {
+}
+
+/* {..5th part....6th part...7th part..............} */
+
+.header-container-div2-osslink {
+  width: auto;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  /* border: 1px solid red; */
+}
+.header-container-div2-ossdiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 16px;
+  font-family: fantasy;
+}
+
+.header-container-div2-ftlink {
+  width: auto;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  /* border: 1px solid red; */
+}
+.header-container-div2-ftdiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.header-container-div2-communitylink {
+  width: auto;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  /* border: 1px solid red; */
+}
+.header-container-div2-communitydiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #66ed31;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1024px) {
+  .header-container-main-div {
+    width: 97%;
+    margin-left: 0px;
+    margin: auto;
+    padding: 0px 14px;
+    /* border: 1px solid red; */
+  }
+
+  .header-div1-box2-select1 {
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+  .header-div1-box2-select2 {
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+  .header-div1-box2-select3 {
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+
+  .header-div1-box2-select4 {
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+
+  .header-div1-box2-select1-buy {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.header-div1-box2-select2-buy {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.header-div1-box2-select3-buy {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.header-div1-box2-select4-buy {
+  font-size: 15px;
+  font-family: fantasy;
+}
+.header-container-div2-ossdiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 15px;
+  font-family: fantasy;
+}
+.header-container-div2-ftdiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.header-container-div2-communitydiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #66ed31;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+    
+  .header-container {
+    width: 100%;
+  }
+  .header-container-main-div {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+
+    .header-container {
+        width: 100%;
+      }
+  .header-container-main-div {
+    display: none;
+  }
+}
